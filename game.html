@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>	
+	<script type="text/javascript" src="js/crafty.js"></script>
+	<script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="js/tiledlevel.js"></script>
+	<script type="text/javascript" src="js/game.js"></script>
+	<style>
+	    body, html { margin:0; padding: 0; overflow:hidden; font-family:Arial; font-size:20px }
+	    #cr-stage { border:2px solid black; margin:5px auto; color:white }
+  	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		Crafty.scene("main", function() {
+		
+			var loading = Game.showLoadingScreen();
+			
+			var startPos = { x: 300, y: 320 };
+			var sprite = new GameSprite(Game.SPRITE_SIZE, "tiles/sprite.png", { PlayerSprite: [ 0, 0 ] });			
+			
+			var level = new GameLevel("maps/test.json", [ sprite ], startPos);
+			
+			var loaded = function() {				
+				
+				loading.destroy();
+				
+			};
+			
+			Game.loadMap(level, loaded);
+
+		});
+
+		Game.init(Game.WIDTH, Game.HEIGHT);
+		
+		Crafty.scene("main");
+	</script>
+</body>
+</html>

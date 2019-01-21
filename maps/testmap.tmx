@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="Trees" tilewidth="40" tileheight="40">
+  <image source="../tiles/Trees.png" width="280" height="240"/>
+  <tile id="33">
+   <properties>
+    <property name="polygon" value="[[0,40], [15,0], [30,40]]"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="polygon" value="[[0,40], [15,0], [30,40]]"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="43" name="Cliffs" tilewidth="40" tileheight="40">
+  <image source="../tiles/Cliffs.png" width="640" height="480"/>
+  <tile id="2">
+   <properties>
+    <property name="polygon" value="[[40, 30], [40, 40], [30, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="polygon" value="[[0, 20], [40, 20], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="polygon" value="[[0, 20], [40, 20], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="polygon" value="[[0, 30], [20, 30], [35, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="polygon" value="[[40,40], [40, 30], [30, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="polygon" value="[[20,0], [40,0], [40, 40], [0, 40], [0, 20]]"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="polygon" value="[[0,0], [20, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="49">
+   <properties>
+    <property name="polygon" value="[[20, 0], [40,0], [40, 40], [20, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="57">
+   <properties>
+    <property name="polygon" value="[[0,0], [30, 0], [30, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="81">
+   <properties>
+    <property name="polygon" value="[[20, 0], [40,0], [40, 40], [20, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="89">
+   <properties>
+    <property name="polygon" value="[[0,0], [30, 0], [30, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="113">
+   <properties>
+    <property name="polygon" value="[[20, 0], [40,0], [40, 40], [20, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="polygon" value="[[0,0], [30, 0], [30, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="129">
+   <properties>
+    <property name="polygon" value="[[20, 0], [40,0], [40, 40], [20, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="137">
+   <properties>
+    <property name="polygon" value="[[0,0], [25, 0], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="145">
+   <properties>
+    <property name="polygon" value="[[20, 0], [40,0], [40, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="146">
+   <properties>
+    <property name="polygon" value="[[0,0], [0, 40], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="148">
+   <properties>
+    <property name="polygon" value="[[0,0], [0, 40], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="150">
+   <properties>
+    <property name="polygon" value="[[0,0], [0, 40], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="152">
+   <properties>
+    <property name="polygon" value="[[0,0], [0, 40], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="153">
+   <properties>
+    <property name="polygon" value="[[0,0], [5,0], [0, 30]]"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="235" name="Cliffs2" tilewidth="40" tileheight="40">
+  <image source="../tiles/Cliffs2.png" width="640" height="480"/>
+  <tile id="2">
+   <properties>
+    <property name="polygon" value="[[0, 30], [30, 0], [40, 0], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="polygon" value="[[0, 0], [35, 0], [40, 25], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="polygon" value="[[40, 30], [40, 40], [20, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="polygon" value="[[0, 25], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="polygon" value="[[0, 40], [3, 35], [5, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="polygon" value="[[0, 30], [40, 0], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="polygon" value="[[0, 0], [10, 0], [40, 25], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="82">
+   <properties>
+    <property name="polygon" value="[[0,0], [0, 40], [40, 0], [20, 40], [0, 20]]"/>
+   </properties>
+  </tile>
+  <tile id="86">
+   <properties>
+    <property name="polygon" value="[[0, 0], [40, 0], [40, 35], [35, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="104">
+   <properties>
+    <property name="polygon" value="[[0, 0], [40, 0], [40, 40], [20, 40], [0, 30]]"/>
+   </properties>
+  </tile>
+  <tile id="108">
+   <properties>
+    <property name="polygon" value="[[0, 0], [40, 0], [40, 30], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="120">
+   <properties>
+    <property name="polygon" value="[[20, 0], [40, 0], [40, 30]]"/>
+   </properties>
+  </tile>
+  <tile id="121">
+   <properties>
+    <property name="polygon" value="[[0,0], [0, 40], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="123">
+   <properties>
+    <property name="polygon" value="[[0,0], [0, 40], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="polygon" value="[[0, 0], [5, 0], [0, 30]]"/>
+   </properties>
+  </tile>
+  <tile id="146">
+   <properties>
+    <property name="polygon" value="[[0,0], [0, 40], [40, 0], [40, 40], [15, 40], [0, 30]]"/>
+   </properties>
+  </tile>
+  <tile id="150">
+   <properties>
+    <property name="polygon" value="[[0, 0], [40, 0], [40, 35], [20, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="162">
+   <properties>
+    <property name="polygon" value="[[20,0], [40, 0], [40, 40], [20, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="166">
+   <properties>
+    <property name="polygon" value="[[0, 0], [20, 0], [20, 30], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="178">
+   <properties>
+    <property name="polygon" value="[[20, 0], [40, 0], [40, 20]]"/>
+   </properties>
+  </tile>
+  <tile id="179">
+   <properties>
+    <property name="polygon" value="[[0,0], [0, 40], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="181">
+   <properties>
+    <property name="polygon" value="[[0,0], [0, 40], [40, 40], [0, 40]]"/>
+   </properties>
+  </tile>
+  <tile id="182">
+   <properties>
+    <property name="polygon" value="[[0, 0], [5, 0], [0, 20]]"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="427" name="Grass2Rock" tilewidth="40" tileheight="40">
+  <image source="../tiles/Grass2Rock.png" width="200" height="120"/>
+ </tileset>
+ <tileset firstgid="442" name="CliffShadow" tilewidth="40" tileheight="40">
+  <image source="../tiles/CliffShadow.png" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="634" name="TreeShadow" tilewidth="40" tileheight="40">
+  <image source="../tiles/TreeShadow.png" width="280" height="200"/>
+ </tileset>
+ <layer name="Grass" width="30" height="30" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJzt0UEKwCAMRFG9/1GsUgttr9cIFoYQuuq4GuFtjPCRtJxSC7wnmrFEB+fFbKYu6GJ7N90cOZ4zumU2e/CO9fcKf2V3seO7vs3qjn2eros7/rM7Otd0f9yJiIiIiKz0AAjnTeA=
+  </data>
+ </layer>
+ <layer name="Cliffs" width="30" height="30" visible="0">
+  <properties>
+   <property name="components" value="Solid"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt0M9KAlEUx/E7b+IDGCK5NEScR2jZ+AfdKrpv0qG2he3TklwaLXSpuNDXSfQBDL9D9+IwMxGOtDs//IDcc+DHHKWOSeMCX9hgq+1wqaLxdzPI6nkuZuev+J15XGGPb1T8gcUPJf7agX2zW0BRReen5AYOUtZPr+GhjkbMbveX+Sl5wQA2vQ7KqKKGd97HMb2edo+HhL0TfOCaniZaaKODKe+zwO4tXHX83nN651igQY+LO/TgYcX7OrBrbvOqhe+RNI90PaGPZys6N7f51ML3SJoBXUO8YRTTa26z1ML3kEgkEolEIpFI/jMHMro4LQ==
+  </data>
+ </layer>
+ <layer name="VegNonSolid" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjILhAZTQ+Jp0spde9pADBrPbRsEoGAWjYBSMglEw8AAAeJ8Ang==
+  </data>
+ </layer>
+ <layer name="Shadow" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhZoIqJgaEaiGuYCKsVAaoRxaOOkDwyaASqawLiZgLqDYHyRkBsjEedEFBOGI88Nj8ii8kAsSyafkcg3wmInSmwF5cfYWI6QKyLJPeAkYEhEMgPAuJgHOYSEx7YALJ/bYDYFqpfHkh/ANqbCKSTgDgZh7nEhAc2gB4GXkDaG4j1QXwsZsHkfaGYUHgQC6KA+qOB2B6IHbCYBZOPhWJc4UFKfqEmIDa/0BPUAt1SB8T1QNxAR3e1AO1qBeI2IG6no73dQLt6gLgXiPsGUTyQAqiZfkkxi5rpd7DlBVLCgZrhT0o4EKt2tHwbBaMAFYyWmSMXAABM6TmI
+  </data>
+ </layer>
+ <layer name="Shadow2" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztlskKwCAMRMXP7r7v26n93c5RpFq1HlqaBwMK0YkDARl7Px1nrIcG/m2PAHeHUKTxUNXE2CdQCmWWPeaoL6BSc05VU2FfQw3UWviavFXHiHMTNEOLxR3yO5724YpJ5n9iRQ6bhyzu5kD22bE+PPiKc3DVg4mPSwbiHLjO4tMMXGeRIAiCIL7Mn/6QJ6y0K0M=
+  </data>
+ </layer>
+ <layer name="Shadow3" width="30" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzTEOACAMw8Coz6ZdgI+TV0QMPsmzJSBnldRuKvvd/h13w18AAADgZw9NJgME
+  </data>
+ </layer>
+ <layer name="Vegetation2" width="30" height="30">
+  <properties>
+   <property name="components" value="Solid"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztkMsKgDAMBOsL1Ao++v//6l4WSvGom4M7MARymZCU4hjhFNDNcAvoXrA0O9UP2OFU/YAdzqcffAE7qt7f6GAPB3F3hgtcxTfs8IBnc4OS+gZjjDHGmLe4AYj+Abc=
+  </data>
+ </layer>
+ <layer name="Vegetation" width="30" height="30">
+  <properties>
+   <property name="components" value="Solid"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztlVEPgjAMhKtComiiwCNv/v8fSY1pMskGvXkSMPuSeyHjbitrqUSklvW5qm6OdZW89zd8kWUeLzpVP3lmhBmp/R1UR9XJkRt6WN7SuW1/U86qi6px5IYelpfyXeKueqha8L3cvK0Tuzdr4O0XNqzv+CR4GEgPMkF6MEZuDXJ7MAbz/iJezPuLeDHnUMoLqQOz/kgd0P/tHEhNvWv3Pt8K/0uZmZ8gZ2D2V5kRv2cEs9sE4w==
+  </data>
+ </layer>
+</map>
